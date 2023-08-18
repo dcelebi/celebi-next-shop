@@ -5,6 +5,7 @@ import Title from '../components/Title';
 import { useEffect, useState } from 'react';
 import { getProducts } from '../lib/products';
 
+
 function HomePage() {
   const [products, setProducts] = useState([]);
   useEffect( () => {
@@ -12,8 +13,11 @@ function HomePage() {
   },[]);
 
   //console.log('[HomePage] render:', products)
+ 
+
   return (
    <>
+   
     <Head>
       <title>Next Shop</title>
     </Head>
