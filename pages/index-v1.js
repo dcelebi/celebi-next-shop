@@ -11,9 +11,7 @@ const  products = [
 
   export async function getStaticProps(){
     console.log('[HomePage] getStaticProps()');
-    //const response = await fetch('http://localhost:1337/api/products');
-    //const products = await response.json();
-    //const products = await getProducts();
+    const products = await getProducts();
 
     return { props: {products} };
   }
