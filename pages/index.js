@@ -10,7 +10,7 @@ function HomePage() {
     getProducts().then((products) => setProducts(products));
   },[]);
 
-  console.log('[HomePage] render:', products)
+  //console.log('[HomePage] render:', products)
   return (
    <>
     <Head>
