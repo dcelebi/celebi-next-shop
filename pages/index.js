@@ -6,7 +6,7 @@ import Title from '../components/Title';
 const  products = [
     { id: 1, title: 'First product'},
     { id: 2, title: 'Second product'},
-  ]
+  ];
 
 
 
